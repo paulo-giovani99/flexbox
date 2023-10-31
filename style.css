@@ -1,0 +1,26 @@
+.banner{
+    width: 320px;
+}
+.topo{
+    text-align: center;
+}
+
+@media(min-width: 880px){
+    .topo{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner{
+        width: 640px;
+        margin-top: 100px;
+    }
+    .texto{
+        width: 250px;
+
+        margin-top: 100px;
+    }
+
+}
